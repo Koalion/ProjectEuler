@@ -1,7 +1,6 @@
 # 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 # What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 
-
 def findLcmOfRange(start, end) :
     """function returns least common multiplier of number in a given range of natural numbers (inclusive), return int"""
     numbersTab = range(start, end + 1)

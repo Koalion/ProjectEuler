@@ -1,12 +1,6 @@
 # If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-# def sumOfMultiplesOf3And5 (limit) :
-#     return sum([num for num in range(limit) if num % 3 == 0 or num % 5 == 0])
-
-# This solution is O(n) because it iterates over all numbers up to the 'limit'
-# On the other hand we can use sum of two arithmetic series: S = (n/2) * (a1 + an)
-
 def sumOfMultiplesOf3And5 (limit) :
     """function returns the sum of all the multiple of 3 and 5 under the limit value"""
     an3 = limit - 1
@@ -33,8 +27,3 @@ def sumOfMultiplesOf3And5 (limit) :
 
 print(sumOfMultiplesOf3And5(1000))
 print(sumOfMultiplesOf3And5(1000000000000))
-#And now it's O(1) :)
-
-
-    
-

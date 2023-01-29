@@ -25,4 +25,3 @@ def evenNumbersFibonacciSum(limit) :
 print (evenNumbersFibonacciSum(4000000))
 
 #Another approach would be to simply multiply the previous number by golden ratio and round to the nearest integer
-#But maybe some other day

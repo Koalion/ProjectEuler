@@ -23,4 +23,3 @@ def findLargestPrimeFactor(num) :
     return maxPrime
 
 print(findLargestPrimeFactor(600851475143))
-
